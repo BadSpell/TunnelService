@@ -6,7 +6,7 @@ It allows you to access services like RDP without having to logon to Windows.
 
 
 ## Installation
--  First, Add the following three lines to the `/etc/ssh/sshd_config` file and restart the ssh service in your ssh server.
+-  Add the following lines to the `/etc/ssh/sshd_config` in your server and restart the ssh service to take effect.
 ```
 GatewayPorts clientspecified
 ClientAliveInterval 15
@@ -15,7 +15,7 @@ ClientAliveCountMax 3
 
 -  Put the ssh private key file **server.key** in the same folder.
 -  Right-click the **tunnel.bat** file to edit it
--  Set the server information and port you want to forwarding.
+-  Set the server information and the ports you want to forwarding.
 -  Save **tunnel.bat** file and run **service_register.bat**.
 
 ## Uninstallation
