@@ -15,7 +15,7 @@ if not %errorlevel% == 0 (
    bin\nssm install BSTunnel "%cd%\tunnel.bat"
    bin\nssm start BSTunnel
    echo.
-   echo Service created successfully.
+   echo Service installed successfully.
 )
 echo Press any key to exit ...
 pause > nul
