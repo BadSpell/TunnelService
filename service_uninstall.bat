@@ -14,7 +14,7 @@ if not %errorlevel% == 0 (
    bin\nssm stop BSTunnel
    bin\nssm remove BSTunnel confirm
    echo.
-   echo Service removed successfully.
+   echo Service uninstalled successfully.
 )
 echo Press any key to exit ...
 pause > nul
