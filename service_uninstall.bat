@@ -3,6 +3,7 @@
 title Tunnel Service
 set key="*.key"
 
+cd %~dp0
 net session >nul 2>&1
 if not %errorlevel% == 0 (
    echo This script must be run with administrator privileges.
